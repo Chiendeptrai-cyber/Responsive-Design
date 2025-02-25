@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Attack on titan</title>
+</head>
+
+<body>
+    
+    <div class="heading">
+        <h1 style="color:whitesmoke; text-align:center">Best Moments in Attack On Titan: The Last Attack</h1>
+    </div>
+
+  
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src=
+"https://www.animationmagazine.net/wordpress/wp-content/uploads/Attack-on-Titan-The-Last-Attack-featured.jpg"
+                onclick="openModal(
+'https://www.animationmagazine.net/wordpress/wp-content/uploads/Attack-on-Titan-The-Last-Attack-featured.jpg')"
+                alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://static1.srcdn.com/wordpress/wp-content/uploads/2024/12/f1051a98-fb05-4291-8809-22c6a2713726.jpeg"
+                onclick="openModal(
+'https://static1.srcdn.com/wordpress/wp-content/uploads/2024/12/f1051a98-fb05-4291-8809-22c6a2713726.jpeg')"
+                alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Collage-Maker-22-Jun-2022-1014-AM.jpg"
+                onclick="openModal(
+'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Collage-Maker-22-Jun-2022-1014-AM.jpg')"
+                alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2023/02/eren-yeager-attack-on-titan-age-height-and-birthday-of-all-characters.jpg"
+                onclick="openModal(
+'https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2023/02/eren-yeager-attack-on-titan-age-height-and-birthday-of-all-characters.jpg')"
+                alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/WCPTOMWPPNOBROL6BFDR73JGAY.jpg"
+                onclick="openModal(
+'https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/WCPTOMWPPNOBROL6BFDR73JGAY.jpg')"
+                alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67XU2FguYTQr7YiTgCU3U9fwmS13SLzWQgw&s"
+                onclick="openModal(
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67XU2FguYTQr7YiTgCU3U9fwmS13SLzWQgw&s')"
+                alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5OaDl0W6NLwM_Qa8W3MWEXTjuttl4bvqXIfnH-7eim8BkEJDkkH-xW9UxMF02_4vZq9k&usqp=CAU"
+                onclick="openModal(
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5OaDl0W6NLwM_Qa8W3MWEXTjuttl4bvqXIfnH-7eim8BkEJDkkH-xW9UxMF02_4vZq9k&usqp=CAU')"
+                alt="Image 7">
+        </div>
+        <div class="gallery-item">
+            <img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnlfG5JICW78mwnA59UTMl1iZr0Sx2hUSM-w&s"
+                onclick="openModal(
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnlfG5JICW78mwnA59UTMl1iZr0Sx2hUSM-w&s')"
+                alt="Image 8">
+        </div>
+    </div>
+
+    
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    
+    <script>
+        function openModal(src) {
+            document.getElementById("modalImage").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
